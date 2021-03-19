@@ -3959,6 +3959,8 @@ with pkgs;
 
   meson-tools = callPackage ../misc/meson-tools { };
 
+  meson64-tools = callPackage ../misc/meson64-tools { };
+
   metabase = callPackage ../servers/metabase { };
 
   micropad = callPackage ../applications/office/micropad {
